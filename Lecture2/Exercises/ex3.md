@@ -32,11 +32,11 @@ summary(dataset)
 # Data visualization
 
 ## Sequence plot
-```{r seq plot, echo=FALSE}
+```{r seq plot, echo=TRUE}
 plot(dataset, type = "l",col = "blue", xlab = "", ylab = "")
 ```
 ## Histogram
-```{r histogram, echo=FALSE}
+```{r histogram, echo=TRUE}
 hist(dataset,col = "blue", xlab = "", ylab = "",xlim=c(0,25),ylim=c(0,25))
 ```
 ## I don't know what to do to make the histogram the same
