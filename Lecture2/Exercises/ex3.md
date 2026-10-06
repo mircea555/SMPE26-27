@@ -40,4 +40,6 @@ plot(dataset, type = "l",col = "blue", xlab = "", ylab = "")
 ```{r histogram, echo=FALSE}
 hist(dataset,col = "blue", xlab = "", ylab = "",xlim=c(0,25),ylim=c(0,25))
 ```
+<img width="875" height="540" alt="image" src="https://github.com/user-attachments/assets/6d30aceb-86d9-47f4-926f-fb194d70cd43" />
+
 ## I don't know what to do to make the histogram the same
