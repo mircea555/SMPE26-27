@@ -5,7 +5,6 @@ date: "06/10/2026"
 output: github_document
 ---
 
-
 ## Some explanations
 This is the dataset
 
@@ -32,11 +31,11 @@ summary(dataset)
 # Data visualization
 
 ## Sequence plot
-```{r seq plot, echo=TRUE}
+```{r seq plot, echo=FALSE}
 plot(dataset, type = "l",col = "blue", xlab = "", ylab = "")
 ```
 ## Histogram
-```{r histogram, echo=TRUE}
+```{r histogram, echo=FALSE}
 hist(dataset,col = "blue", xlab = "", ylab = "",xlim=c(0,25),ylim=c(0,25))
 ```
 ## I don't know what to do to make the histogram the same
