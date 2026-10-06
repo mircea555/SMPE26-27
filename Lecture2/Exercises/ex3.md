@@ -34,6 +34,8 @@ summary(dataset)
 ```{r seq plot, echo=FALSE}
 plot(dataset, type = "l",col = "blue", xlab = "", ylab = "")
 ```
+<img width="875" height="540" alt="image" src="https://github.com/user-attachments/assets/04e91193-90be-4498-80c9-d1972715f39e" />
+
 ## Histogram
 ```{r histogram, echo=FALSE}
 hist(dataset,col = "blue", xlab = "", ylab = "",xlim=c(0,25),ylim=c(0,25))
