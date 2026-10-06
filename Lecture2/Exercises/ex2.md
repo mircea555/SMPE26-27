@@ -5,11 +5,6 @@ date: "06/10/2026"
 output: github_document
 ---
 
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ## Some explanations
 This is the dataset
 
