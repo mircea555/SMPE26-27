@@ -28,6 +28,7 @@ logistic_reg = glm(data=data, Malfunction/Count ~ Temperature, weights=Count,
                    family=binomial(link='logit'))
 summary(logistic_reg)
 ```
+```
 Call:
 glm(formula = Malfunction/Count ~ Temperature, family = binomial(link = "logit"), 
     data = data, weights = Count)
@@ -46,7 +47,7 @@ Residual deviance: 18.086  on 21  degrees of freedom
 AIC: 35.647
 
 Number of Fisher Scoring iterations: 5
-
+```
 ```{r}
 # shuttle=shuttle[shuttle$r!=0,] 
 tempv = seq(from=30, to=90, by = .5)
